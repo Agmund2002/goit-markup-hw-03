@@ -15,7 +15,7 @@
   --secondary-font: Raleway, sans-serif;
   /* Інше */
   --accent-color: #2196f3;
-  --btn-accent-color: #188CE8;
+  --btn-accent-color: #188ce8;
 }
 body {
   font-family: var(--main-font);
