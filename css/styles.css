@@ -270,6 +270,15 @@ h1,h2,h3,h4.h5,h6,p,ul {
 
 /* стилізація файлу portfolio */
 
+.projects-nav {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 8px;
+}
+
 .projects-nav-btn > button {
   font-family: var(--main-font);
   background-color: var(--secondary-background-color);
@@ -279,6 +288,7 @@ h1,h2,h3,h4.h5,h6,p,ul {
   line-height: calc(26 / 16);
   text-align: center;
   border: 0;
+  padding: 6px 22px;
 }
 
 .projects-nav-btn > button:hover,
@@ -291,8 +301,14 @@ h1,h2,h3,h4.h5,h6,p,ul {
   cursor: pointer;
 }
 
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 94px;
+}
+
 .projects-list-item {
-  border: 1px solid #eeeeee;
   width: 370px;
 }
 
@@ -301,13 +317,25 @@ h1,h2,h3,h4.h5,h6,p,ul {
   color: currentColor;
 }
 
-.projects-link > h2 {
+.projects-link > img {
+  display: block;
+}
+
+.border {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 20px 24px;
+}
+
+.border > h2 {
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
+  padding-bottom: 4px;
 }
 
-.projects-link > p {
+.border > p {
   font-size: 16px;
   line-height: calc(30 / 16);
   color: var(--secondary-txt-color);
