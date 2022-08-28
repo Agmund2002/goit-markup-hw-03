@@ -273,6 +273,20 @@ h1,h2,h3,h4.h5,h6,p,ul {
 
 .foot {
   color: var(--secondary-title-color);
+  display: block;
+  width: 145px;
+  padding-top: 60px;
+  padding-bottom: 0;
+}
+
+.address {
+  width: 231px;
+  margin-top: 20px;
+  padding-bottom: 60px;
+}
+
+.address-list-item:not(:last-child) {
+  padding-bottom: 9px;
 }
 
 .address-list-item > a {
