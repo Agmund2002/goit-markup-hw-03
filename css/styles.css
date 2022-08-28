@@ -1,0 +1,247 @@
+:root {
+  /* Колір тексту */
+  --main-txt-color: #212121;
+  --secondary-txt-color: #757575;
+  --secondary-logo-color: #000;
+  --secondary-title-color: #fff;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  /* Колір фону */
+  --root-color: #fff;
+  --main-background-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
+  --projects-color: #eee;
+  /* Шрифти */
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  /* Інше */
+  --accent-color: #2196f3;
+  --btn-accent-color: #188CE8;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--main-txt-color);
+  letter-spacing: 0.03em;
+}
+.markers {
+  list-style: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  color: var(--secondary-logo-color);
+}
+
+.color-logo {
+  color: var(--accent-color);
+}
+
+.current-tab {
+  color: var(--accent-color);
+}
+
+.nav-list-item > a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: currentColor;
+}
+
+.nav-list-item > a:hover,
+.nav-list-item > a:focus {
+  color: var(--accent-color);
+}
+
+.contacts-list-item > a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-txt-color);
+}
+
+/* стилізація файлу index.html */
+
+.contacts-list-item > a:hover,
+.contacts-list-item > a:focus {
+  color: var(--accent-color);
+}
+
+.order {
+  background-color: var(--main-background-color);
+}
+
+.order-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-title-color);
+}
+
+.order-btn {
+  font-family: var(--main-font);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-color);
+  cursor: pointer;
+  border: 0;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  background-color: var(--btn-accent-color);
+}
+
+.features-list-item > h3 {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+}
+
+.features-list-item > p {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: var(--secondary-txt-color);
+}
+
+.services-title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+}
+
+.team {
+  background-color: var(--secondary-background-color);
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+}
+
+.team-list-item {
+  width: 270px;
+  background-color: var(--root-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-list-item > h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+}
+
+.team-list-item > p {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  color: var(--secondary-txt-color);
+}
+
+/* завершення стилізації файлу index.html */
+
+/* стилізація файлу portfolio */
+
+.projects-nav-btn > button {
+  font-family: var(--main-font);
+  background-color: var(--secondary-background-color);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  border: 0;
+}
+
+.projects-nav-btn > button:hover,
+.projects-nav-btn > button:focus {
+  color: var(--secondary-title-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.projects-list-item {
+  border: 1px solid #eeeeee;
+  width: 370px;
+}
+
+.projects-link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.projects-link > h2 {
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+
+.projects-link > p {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: var(--secondary-txt-color);
+}
+
+/* завершення стилізації файлу portfolio */
+
+.footer {
+  background-color: var(--main-background-color);
+}
+
+.foot {
+  color: var(--secondary-title-color);
+}
+
+.address-list-item > a {
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: var(--footer-contacts-color);
+}
+
+.location > a {
+  color: var(--secondary-title-color);
+}
+
+.address-list-item > a:hover,
+.address-list-item > a:focus {
+  color: var(--accent-color);
+}
