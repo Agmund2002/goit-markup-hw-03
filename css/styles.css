@@ -176,10 +176,21 @@ h1,h2,h3,h4.h5,h6,p,ul {
   background-color: var(--btn-accent-color);
 }
 
+.features-list {
+  padding: 94px 0;
+  display: flex;
+  gap: 30px;
+}
+
+.features-list-item {
+  width: 270px;
+}
+
 .features-list-item > h3 {
   font-size: 14px;
   line-height: calc(16 / 14);
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
 .features-list-item > p {
