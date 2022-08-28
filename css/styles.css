@@ -176,10 +176,15 @@ h1,h2,h3,h4.h5,h6,p,ul {
   background-color: var(--btn-accent-color);
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .features-list {
-  padding: 94px 0;
   display: flex;
   gap: 30px;
+  padding-top: 94px;
 }
 
 .features-list-item {
@@ -209,7 +214,6 @@ h1,h2,h3,h4.h5,h6,p,ul {
 .services-list {
   display: flex;
   gap: 30px;
-  padding-bottom: 94px;
 }
 
 .services-list-item > img {
@@ -227,14 +231,12 @@ h1,h2,h3,h4.h5,h6,p,ul {
 }
 
 .team-title {
-  padding-top: 94px;
   padding-bottom: 50px;
 }
 
 .team-list {
   display: flex;
   gap: 30px;
-  padding-bottom: 94px;
 }
 
 .team-list-item {
@@ -272,7 +274,6 @@ h1,h2,h3,h4.h5,h6,p,ul {
 
 .projects-nav {
   display: flex;
-  padding-top: 94px;
   padding-bottom: 50px;
   margin: 0 auto;
   justify-content: center;
@@ -305,7 +306,6 @@ h1,h2,h3,h4.h5,h6,p,ul {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding-bottom: 94px;
 }
 
 .projects-list-item {
