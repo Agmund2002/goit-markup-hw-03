@@ -41,7 +41,6 @@ h1,h2,h3,h4.h5,h6,p,ul {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -136,6 +135,10 @@ h1,h2,h3,h4.h5,h6,p,ul {
   background-color: var(--main-background-color);
 }
 
+.order-container {
+  padding: 200px 0;
+}
+
 .order-title {
   font-weight: 900;
   font-size: 44px;
@@ -144,9 +147,15 @@ h1,h2,h3,h4.h5,h6,p,ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-title-color);
+  width: 696px;
+  margin: 0 auto;
+  padding-bottom: 30px;
 }
 
 .order-btn {
+  display: block;
+  width: 216px;
+  height: 50px;
   font-family: var(--main-font);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -154,13 +163,12 @@ h1,h2,h3,h4.h5,h6,p,ul {
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--secondary-title-color);
   cursor: pointer;
   border: 0;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .order-btn:hover,
@@ -281,7 +289,7 @@ h1,h2,h3,h4.h5,h6,p,ul {
 
 .address {
   width: 231px;
-  margin-top: 20px;
+  padding-top: 20px;
   padding-bottom: 60px;
 }
 
